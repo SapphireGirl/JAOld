@@ -6,3 +6,66 @@ services:
     build:
       context: .
       dockerfile: JA.MS/Dockerfile
+
+  ja.ms.services.identity.api:
+    image: ${DOCKER_REGISTRY}jamsservicesidentityapi
+    build:
+      context: .
+      dockerfile: JA.MS.Services.Identity.API/Dockerfile
+
+
+  ja.ms.services.basket.api:
+    image: ${DOCKER_REGISTRY}jamsservicesbasketapi
+    build:
+      context: .
+      dockerfile: src/Services/Basket/JA.MS.Services.Basket.API/Dockerfile
+
+
+  ja.ms.services.blog:
+    image: ${DOCKER_REGISTRY}jamsservicesblog
+    build:
+      context: .
+      dockerfile: src/Services/Blog/JA.MS.Services.Blog/Dockerfile
+
+
+  ja.ms.services.catalog.api:
+    image: ${DOCKER_REGISTRY}jamsservicescatalogapi
+    build:
+      context: .
+      dockerfile: src/Services/Catalog/JA.MS.Services.Catalog.API/Dockerfile
+
+
+  ja.ms.services.courses.api:
+    image: ${DOCKER_REGISTRY}jamsservicescoursesapi
+    build:
+      context: .
+      dockerfile: src/Services/Courses/JA.MS.Services.Courses.API/Dockerfile
+
+
+  ja.ms.services.location.api:
+    image: ${DOCKER_REGISTRY}jamsserviceslocationapi
+    build:
+      context: .
+      dockerfile: src/Services/Location/JA.MS.Services.Location.API/Dockerfile
+
+
+  ja.ms.services.marketing.api:
+    image: ${DOCKER_REGISTRY}jamsservicesmarketingapi
+    build:
+      context: .
+      dockerfile: src/Services/Marketing/JA.MS.Services.Marketing.API/Dockerfile
+
+
+  ja.ms.services.ordering.api:
+    image: ${DOCKER_REGISTRY}jamsservicesorderingapi
+    build:
+      context: .
+      dockerfile: src/Services/Ordering/JA.MS.Services.Ordering.API/Dockerfile
+
+
+  ja.ms.services.payment.api:
+    image: ${DOCKER_REGISTRY}jamsservicespaymentapi
+    build:
+      context: .
+      dockerfile: src/Services/Payment/JA.MS.Services.Payment.API/Dockerfile
+
