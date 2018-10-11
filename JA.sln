@@ -43,7 +43,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JA.MS.API_GWBase", "src\Api
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JA.MS.Mobile.Shopping.HTTPAgreggator", "src\ApiGateways\Mobile.Shopping\aggregator\JA.MS.Mobile.Shopping.HTTPAgreggator\JA.MS.Mobile.Shopping.HTTPAgreggator.csproj", "{C848655D-0430-4F2B-B9C8-B9C49234FEE9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{DA7D433A-B843-463F-9837-1CFA3C56AD4C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{DA7D433A-B843-463F-9837-1CFA3C56AD4C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JA.MS.Web.Shopping.HTTPAgreggator", "src\ApiGateways\Web.Shopping\aggregator\JA.MS.Web.Shopping.HTTPAgreggator\JA.MS.Web.Shopping.HTTPAgreggator.csproj", "{E386C6F7-3508-4EE6-8396-B0A949FA3C30}"
 EndProject
@@ -59,7 +59,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JA.MS.HealthChecks.Azure", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JA.MS.HealthChecks.AWS", "src\BuildingBlocks\HealthChecks\JA.MS.HealthChecks.AWS\JA.MS.HealthChecks.AWS.csproj", "{E6C6702C-7A4C-47E2-AD77-DEDD7D82D16E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{90C58B10-FA47-4617-A1D4-37D62EF9BCD2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HtmlTemplates", "HtmlTemplates", "{90C58B10-FA47-4617-A1D4-37D62EF9BCD2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{3DF5A7FD-8FA3-4E0A-985B-FA330B3536A2}"
 EndProject
@@ -150,6 +150,16 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JA.MS.Services.Payment.API", "src\Services\Payment\JA.MS.Services.Payment.API\JA.MS.Services.Payment.API.csproj", "{5C5B4CCD-9D12-4BB1-89AC-FCD6988FAB0C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JA.MS.Services.Identity.API", "src\Services\Identity\JA.MS.Services.Identity.API\JA.MS.Services.Identity.API.csproj", "{4DF365AB-F91D-4DBE-9F10-49A58AF2756E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaseService", "BaseService", "{1B007201-9A7A-4EAE-8841-181FF86BD686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveTheCoffeeHouse", "LoveTheCoffeeHouse\LoveTheCoffeeHouse.csproj", "{2E31027D-B966-4F98-AD1B-D46F963DA689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JA.MS.APIGateway.Utility", "src\ApiGateways\Utility\JA.MS.APIGateway.Utility\JA.MS.APIGateway.Utility.csproj", "{19BD7B2B-6FCC-435E-8F1B-EC416880F985}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{ACA1567F-8D4E-41F8-BBF1-5B45C7D35193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JA.MS.Service.Base", "JA.MS.Service.Base\JA.MS.Service.Base.csproj", "{34F7DF9D-48F1-44FA-8B6D-8EA38D1622DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -329,6 +339,18 @@ Global
 		{4DF365AB-F91D-4DBE-9F10-49A58AF2756E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DF365AB-F91D-4DBE-9F10-49A58AF2756E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DF365AB-F91D-4DBE-9F10-49A58AF2756E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E31027D-B966-4F98-AD1B-D46F963DA689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E31027D-B966-4F98-AD1B-D46F963DA689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E31027D-B966-4F98-AD1B-D46F963DA689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E31027D-B966-4F98-AD1B-D46F963DA689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BD7B2B-6FCC-435E-8F1B-EC416880F985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BD7B2B-6FCC-435E-8F1B-EC416880F985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BD7B2B-6FCC-435E-8F1B-EC416880F985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BD7B2B-6FCC-435E-8F1B-EC416880F985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F7DF9D-48F1-44FA-8B6D-8EA38D1622DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F7DF9D-48F1-44FA-8B6D-8EA38D1622DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F7DF9D-48F1-44FA-8B6D-8EA38D1622DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F7DF9D-48F1-44FA-8B6D-8EA38D1622DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -405,6 +427,10 @@ Global
 		{91788079-3C2C-4EB0-9E27-AB1FD099BA97} = {0B790CCA-01E7-4D89-8176-038A445C90C0}
 		{5C5B4CCD-9D12-4BB1-89AC-FCD6988FAB0C} = {6A86F194-6C61-4D9F-8778-AF5E73EAF20E}
 		{4DF365AB-F91D-4DBE-9F10-49A58AF2756E} = {3DF5A7FD-8FA3-4E0A-985B-FA330B3536A2}
+		{1B007201-9A7A-4EAE-8841-181FF86BD686} = {5DB1D2AA-DF79-4812-B9D2-85246304B9C6}
+		{2E31027D-B966-4F98-AD1B-D46F963DA689} = {5B33BEF4-67A0-478F-B91A-5C1F153CC153}
+		{19BD7B2B-6FCC-435E-8F1B-EC416880F985} = {DA7D433A-B843-463F-9837-1CFA3C56AD4C}
+		{34F7DF9D-48F1-44FA-8B6D-8EA38D1622DB} = {1B007201-9A7A-4EAE-8841-181FF86BD686}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {47D2E5C3-5CAF-45C7-BA1E-C44BF4B60E97}

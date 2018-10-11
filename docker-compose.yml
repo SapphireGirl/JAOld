@@ -69,3 +69,17 @@ services:
       context: .
       dockerfile: src/Services/Payment/JA.MS.Services.Payment.API/Dockerfile
 
+
+  lovethecoffeehouse:
+    image: ${DOCKER_REGISTRY}lovethecoffeehouse
+    build:
+      context: .
+      dockerfile: LoveTheCoffeeHouse\Dockerfile
+
+
+  ja.ms.apigateway.utility:
+    image: ${DOCKER_REGISTRY}jamsapigatewayutility
+    build:
+      context: .
+      dockerfile: src\ApiGateways\Utility\JA.MS.APIGateway.Utility\Dockerfile
+
